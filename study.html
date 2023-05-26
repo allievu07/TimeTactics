@@ -1,0 +1,46 @@
+    <html><head>
+        <title>Under Development</title>
+        <link href="style.css" rel="stylesheet">
+        </head><body class="vsc-initialized"><img src="https://mail.google.com/mail/u/0?ui=2&amp;ik=5c46402818&amp;attid=0.1&amp;permmsgid=msg-f:1766974270687733343&amp;th=18858dbcc398e65f&amp;view=fimg&amp;fur=ip&amp;sz=s0-l75-ft&amp;attbid=ANGjdJ9tRGuy-bFEN0-a1z5FIGOBmcVVc6f6uQhH_5dSESv037CfMrcQy2we59nD3N65KohHj8mMhZ8F7-aeVHXw0A1Y1qfx_yFP6klptwbSwnfe_YMsTVXCa127IXY&amp;disp=emb&amp;realattid=e68a66d9141c0915_0.1.1" height="300" width="450">
+        
+    
+            
+            <h2>Under Development!</h2>
+        <br><br><br><br>
+            <script>
+                function stopStudying(){
+
+                }
+                function startTimer(duration, display) {
+                    var timer = duration, minutes, seconds;
+                    setInterval(function () {
+                        if (!(document.getElementById("time").textContent == "finished!")){
+                        minutes = parseInt(timer / 60, 10);
+                        seconds = parseInt(timer % 60, 10);
+                
+                        minutes = minutes < 10 ? "0" + minutes : minutes;
+                        seconds = seconds < 10 ? "0" + seconds : seconds;
+                
+                        display.textContent = minutes + ":" + seconds;
+                
+                        if (--timer < 0) {
+                            timer = duration;
+                        }
+                        else if (timer == 0){
+                            document.getElementById("time").textContent = "finished!"
+                            document.getElementById("timeText").textContent="You are finished!"
+                        }
+                    }
+
+                    }, 1000);
+                }
+                
+                window.onload = function () {
+                    var fiveMinutes = 60*5,
+                        display = document.querySelector('#time');
+                    startTimer(fiveMinutes, display);
+                };
+            </script>
+        <div id = "timeText"style="font-size: 50px;">Study for <span id="time">05:00</span>!</div> 
+
+    </body></html>
