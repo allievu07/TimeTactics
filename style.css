@@ -4,10 +4,14 @@ html {
   margin-right: 150px;
 }
 
+body {
+  background: linear-gradient(0deg, #C2E4C3, #C2E4C3);
+}
+
 h1 {
   font-size: 40px;
   font-family: cursive;
-  background-color: white;
+  background-color: none;
   margin-left: 100px;
   margin-right: 100px;
   margin-bottom: -15px;
@@ -16,13 +20,15 @@ h1 {
 h2 {
   font-size: 20px;
   font-family: cursive;
-  background-color: white;
+  background-color: none;
+  color: black;
+  margin-top: -40px;
   margin-left: 300px;
   margin-right: 300px;
   margin-bottom: 50px;
 }
 
-button {
+  button {
   border-color: #479F4A;
   color: black;
   background-color: #93D88C;
@@ -41,10 +47,38 @@ button:hover {
 }
 
 h3 {
+  font-size: 30px;
+  font-family: cursive;
+  background-color: none;
+  margin-left: 300px;
+  margin-right: 300px;
+  margin-bottom: 25px;
+}
+
+h4 {
+  border: 1px solid black;
+  padding: 80px 50px;
   font-size: 20px;
   font-family: cursive;
   background-color: white;
-  margin-left: 300px;
-  margin-right: 300px;
-  margin-bottom: 50px;
+}
+
+#about {
+  margin-right: 750px;
+  margin-bottom: 25px;
+  background-color: #DAB8F2;
+}
+
+#planner {
+  margin-top: -215px;
+  margin-right: 325px;
+  margin-left: 325px;
+  margin-bottom: 25px;
+  background-color: #DAB8F2;
+}
+
+#habits {
+  margin-top: -215px;
+  margin-left: 750px;
+  margin-bottom: 25px;
 }
