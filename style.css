@@ -28,8 +28,9 @@ h2 {
   margin-bottom: 50px;
 }
 
-  button {
+ button {
   border-color: #479F4A;
+  border-radius: 30px;
   color: black;
   background-color: #93D88C;
   padding: 10px 60px;
@@ -47,16 +48,18 @@ button:hover {
 }
 
 h3 {
+  border: 1px solid black;
+  border-radius: 30px;
   font-size: 30px;
   font-family: cursive;
-  background-color: none;
-  margin-left: 300px;
-  margin-right: 300px;
-  margin-bottom: 25px;
+  background-color: white;
+  margin-bottom: 40px;
+  padding: 20px;
 }
 
 h4 {
   border: 1px solid black;
+  border-radius: 30px;
   padding: 80px 50px;
   font-size: 20px;
   font-family: cursive;
@@ -66,6 +69,7 @@ h4 {
 #about {
   margin-right: 750px;
   margin-bottom: 25px;
+  margin-top: -60px;
   background-color: #F4F0C0;
 }
 
@@ -81,14 +85,7 @@ h4 {
   margin-top: -215px;
   margin-left: 750px;
   margin-bottom: 25px;
-  background-color: #51C850;
-}
-
-#habits {
-  margin-top: -215px;
-  margin-left: 750px;
-  margin-bottom: 25px;
-  background-color: #3A7D0B;
+  background-color: #70A74A;
 }
 
 #studying {
@@ -96,3 +93,41 @@ h4 {
   margin-bottom: 25px;
   background-color: #C5E9F4;
 }
+
+#homework {
+  margin-left: 400px;
+  margin-right: 275px;
+  margin-top: -215px;
+  background-color: #866FC4;
+}
+
+#help {
+  margin-top: -216px;
+  margin-left: 800px;
+  background-color: lightgray;
+}
+
+ button1 {
+  border-color: #479F4A;
+  border-radius: 100px;
+  color: black;
+  background-color: #E4DFA7;
+  padding: 5px 10px;
+  text-align: center;
+  font-size: 30px;
+  font-family: cursive;
+  transition-duration: 0.2s;
+  margin-right: 525px;
+  cursor: pointer;
+}
+
+#toAbout:hover {
+  color: black;
+  background-color: #AAA671;
+}
+
+#ABOUT {
+  margin-top: 100px;
+  margin-bottom: 500px;
+}
+
